@@ -14,15 +14,15 @@ const images = [
   { src: "https://images.pexels.com/photos/1433052/pexels-photo-1433052.jpeg?auto=compress&cs=tinysrgb&w=1600" },
   { src: "https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=1600" },
   { src: "https://images.pexels.com/photos/1420440/pexels-photo-1420440.jpeg?auto=compress&cs=tinysrgb&w=1600" },
-]
+];
 
 function App() {
 
   return (
-    <div className="max-w-7xl mx-auto columns-2 p-3 gap-3 space-y-3 lg:columns-3 lg:p-10 lg:gap-5 lg:space-y-5">
+    <div className="max-w-7xl mx-auto columns-2 p-3 gap-3 space-y-3 lg:columns-3 lg:p-10 lg:gap-5 lg:space-y-5 mt-5">
       {images.map((image, index) =>
-        <div className="relative cursor-pointer group" key={index}>
-          <img src={image.src} className='rounded-lg' />
+        <div className="hover:bg-gradient-to-tl hover:from-indigo-500/50 hover:to-pink-500/50 relative cursor-pointer group" key={index}>
+          <img src={image.src} className='rounded-lg mix-blend-overlay' loading='lazy' />
 
           <span className='z-10 absolute group: bottom-3 right-3 cursor-pointer hover:bg-white p-2 rounded-lg md:hidden'>
             <FiDownload className=' text-white text-2xl group:text-slate-700' />
