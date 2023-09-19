@@ -59,11 +59,11 @@ export default function App() {
       </Swiper>
 
       <div className='w-[95%] md:w-[700px] z-10 p-3 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
-        <div className='font-mono text-center text-[20px] md:text-[33px] font-extrabold text-white'>The best free stock photos, royalty free images & videos shared by creators.</div>
+        <div className='  text-[20px] md:text-[33px] font-extrabold text-white'>The best free stock photos, royalty free images & videos shared by creators.</div>
         <div className='mt-6'>
-          <input type="text" className="w-full h-[44px] px-7 outline-none rounded-lg py-5 md:py-7 shadow-lg font-mono placeholder:text-lg placeholder:text-slate-500" placeholder='Search for free photos' />
+          <input type="text" className="w-full h-[44px] px-7 outline-none rounded-lg py-5 md:py-7 shadow-lg  placeholder:text-lg placeholder:text-slate-500" placeholder='Search for free photos' />
         </div>
-        <div className='mt-6 font-mono text-white text-center font-bold text-sm md:text-base'>
+        <div className='mt-6  text-white  font-bold text-sm md:text-base'>
           <span className='text-slate-300'>Trending</span>: mehndi design, motivational, meeting, london, social media marketing
         </div>
       </div>
