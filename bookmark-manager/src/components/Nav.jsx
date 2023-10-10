@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import logo from "../images/logo-bookmark.svg"
 import logo2 from "../images/logo-bookmark-footer.svg"
 import Hamburger from './Hamburger'
+import Button from './Button';
 
 function Nav() {
   const [isClicked, setIsClicked] = useState(false);
@@ -16,7 +17,14 @@ function Nav() {
           <a href="#Features" className='tracking-widest hover:text-softRed'>Features</a>
           <a href="#Features" className='tracking-widest hover:text-softRed'>Download</a>
           <a href="#Features" className='tracking-widest hover:text-softRed'>Faq</a>
-          <a href="" className='bg-softRed text-white px-6 py-2 rounded-md shadow-md hover:bg-transparent hover:text-softRed border-2 border-softRed'>login</a>
+          <Button
+            link={'#'}
+            bgColor={'bg-softRed'}
+            hoverBgColor={'hover:bg-transparent'}
+            hoverTextColor={'hover:text-softRed'}
+            borderColor={'border-softRed'}
+            content={'Login'}
+          />
         </div>
         <Hamburger isClicked={isClicked} setIsClicked={setIsClicked} />
       </div>
