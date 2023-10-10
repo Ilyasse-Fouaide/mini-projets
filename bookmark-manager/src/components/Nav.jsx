@@ -14,9 +14,9 @@ function Nav() {
           <img src={isClicked ? logo2 : logo} alt="logo bookmark" />
         </div>
         <div className='hidden md:flex items-center space-x-10 uppercase text-grayishBlue'>
-          <a href="#Features" className='tracking-widest hover:text-softRed'>Features</a>
-          <a href="#Features" className='tracking-widest hover:text-softRed'>Download</a>
-          <a href="#Features" className='tracking-widest hover:text-softRed'>Faq</a>
+          <a href="#features" className='tracking-widest hover:text-softRed'>Features</a>
+          <a href="#download" className='tracking-widest hover:text-softRed'>Download</a>
+          <a href="#faq" className='tracking-widest hover:text-softRed'>Faq</a>
           <Button
             link={'#'}
             bgColor={'bg-softRed'}
