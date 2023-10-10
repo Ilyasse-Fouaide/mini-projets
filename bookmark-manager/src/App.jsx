@@ -1,5 +1,7 @@
+import FeaturesH from "./components/FeaturesH"
 import Hero from "./components/Hero"
 import Nav from "./components/Nav"
+import Tab from "./components/Tab"
 
 function App() {
 
@@ -7,6 +9,8 @@ function App() {
     <>
       <Nav />
       <Hero />
+      <FeaturesH />
+      <Tab />
     </>
   )
 }
