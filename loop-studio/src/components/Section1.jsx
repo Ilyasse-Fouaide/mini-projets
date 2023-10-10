@@ -27,7 +27,7 @@ function Section1() {
         {/* // *  Sidebar */}
         <SideBar isClicked={isClicked} />
 
-        <div className="max-w-xl my-32 border-2 p-4 rounded-md text-left uppercase text-white text-4xl md:text-6xl font-light md:p-10">
+        <div className="max-w-xl my-32 border-2 p-4 rounded-md text-left uppercase text-white text-6xl font-light md:p-10">
           Impressive Exepriences That Deliver
         </div>
       </div>
