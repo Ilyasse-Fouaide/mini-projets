@@ -5,12 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '1020px',
-      xl: '1440px'
-    },
+    // screens: {
+    //   sm: '480px',
+    //   md: '768px',
+    //   lg: '1020px',
+    //   xl: '1440px'
+    // },
     extend: {
       colors: {
         softBlue: 'hsl(231, 69%, 60%)',
