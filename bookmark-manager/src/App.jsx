@@ -1,3 +1,4 @@
+import Cards from "./components/Cards"
 import Download from "./components/Download"
 import FeaturesH from "./components/FeaturesH"
 import Hero from "./components/Hero"
@@ -13,6 +14,7 @@ function App() {
       <FeaturesH />
       <Tab />
       <Download />
+      <Cards />
     </>
   )
 }
