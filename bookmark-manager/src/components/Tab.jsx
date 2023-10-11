@@ -31,7 +31,7 @@ function Tab() {
 
   return (
     <section>
-      <div className="container mx-auto px-6 py-12">
+      <div className="container mx-auto px-6 py-10">
         <div className='flex flex-col w-full md:w-fit md:flex-row md:border-b'>
           <TabsItem data={data} isClicked={isClicked} setIsClicked={setIsClicked} />
         </div>
