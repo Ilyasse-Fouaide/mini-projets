@@ -3,6 +3,7 @@ import logo from "../images/logo-bookmark.svg"
 import logo2 from "../images/logo-bookmark-footer.svg"
 import Hamburger from './Hamburger'
 import Button from './Button';
+import Navmenu from './Navmenu';
 
 function Nav() {
   const [isClicked, setIsClicked] = useState(false);
@@ -30,15 +31,7 @@ function Nav() {
           <Hamburger isClicked={isClicked} setIsClicked={setIsClicked} />
         </div>
       </nav>
-      <div className={`opacity-0 z-10 fixed top-0 w-full h-[100vh] transition-opacity duration-200 ${isClicked && 'opacity-95'} bg-indigo-950 divide-y-2 divide-gray-300 pt-24`}>
-        {['Features', 'Download', 'Faq'].map((item, index) => (
-          <div key={index} className={`${isClicked ? '' : 'hidden'}`}>
-            <div className='flex flex-col justify-center items-center py-2 text-gray-200 uppercase'>
-              <div className='hover:text-softRed cursor-pointer'>{item}</div>
-            </div>
-          </div>
-        ))}
-      </div>
+      <Navmenu isClicked={isClicked} />
     </>
   )
 }
